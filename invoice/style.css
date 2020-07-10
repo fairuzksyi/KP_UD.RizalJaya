@@ -1,0 +1,176 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #5D6975;
+  text-decoration: underline;
+}
+
+body {
+  position: relative;
+  width: 21cm;
+  margin: 0 auto; 
+  color: #001028;
+  background: #FFFFFF; 
+  font-family: Arial, sans-serif; 
+  font-size: 12px; 
+  font-family: Arial;
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+#logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#logo img {
+  width: 90px;
+}
+
+h1 {
+  border-top: 1px solid  #5D6975;
+  border-bottom: 1px solid  #5D6975;
+  color: #5D6975;
+  font-size: 2.4em;
+  line-height: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 20px 0;
+  background: url(dimension.png);
+}
+
+#project {
+  float: left;
+}
+
+#project span {
+  color: #5D6975;
+  text-align: right;
+  width: 52px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+#company {
+  float: right;
+  text-align: right;
+}
+
+#project div,
+#company div {
+  white-space: nowrap;        
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table tr:nth-child(2n-1) td {
+  background: #F5F5F5;
+}
+
+table th,
+table td {
+  text-align: center;
+}
+
+table th {
+  padding: 5px 20px;
+  color: #5D6975;
+  border-bottom: 1px solid #C1CED9;
+  white-space: nowrap;        
+  font-weight: normal;
+}
+
+table .service,
+table .desc {
+  text-align: left;
+}
+
+table td {
+  padding: 15px;
+  text-align: center;
+}
+
+table td.bawah {
+  background: url(dimension.png);
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  border-top: 1px solid #C1CED9;
+  padding: 8px 0;
+  text-align: center;
+  color: #758184;
+  background: url(dimension.png);
+}
+
+table td.info {
+  padding: 20px;
+  text-align: left;
+  background: #f5f5f5;
+  border-top: 1px solid #5D6975;
+}
+
+table td.service,
+table td.desc {
+  vertical-align: top;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 1.2em;
+}
+
+table td.grand {
+  border-top: 1px solid #5D6975;;
+}
+
+#notices .notice {
+  color: #5D6975;
+  font-size: 1.2em;
+}
+
+
+footer {
+  color: #5D6975;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #C1CED9;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  border: 50px;
+}
+
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+.alert-info .alert-link {
+  color: #245269;
+}
